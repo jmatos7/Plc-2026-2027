@@ -1,12 +1,12 @@
 # 📝 TPC 2 — Conversor de Markdown para HTML
 
-**### 📌 Enunciado**
+### 📌 Enunciado
 
 Criar em Python um pequeno conversor de Markdown para HTML que processe os elementos básicos da "Basic Syntax": Cabeçalhos, Bold, Itálico, Listas numeradas, Links e Imagens.
 
 ---
 
-**### ✏️ Resolução**
+### ✏️ Resolução
 
 * [TPC 2 — Conversor de Markdown para HTML](MarkDown_To_HTML.py)
 
@@ -14,7 +14,7 @@ O conversor foi desenvolvido em Python utilizando o módulo `re` para reconhecer
 
 ---
 
-**### 💡 Funcionalidades**
+### 💡 Funcionalidades
 
 * **Cabeçalhos:** reconhece linhas iniciadas por `#`, `##` ou `###` e converte-as para `<h1>`, `<h2>` e `<h3>`.
 
@@ -30,7 +30,7 @@ O conversor foi desenvolvido em Python utilizando o módulo `re` para reconhecer
 
 ---
 
-**### 🔎 Exemplos**
+### 🔎 Exemplos
 
 | Entrada (Markdown)                 | Saída (HTML)                                  |
 | ---------------------------------- | --------------------------------------------- |
@@ -44,7 +44,7 @@ O conversor foi desenvolvido em Python utilizando o módulo `re` para reconhecer
 
 ---
 
-**### 🧪 Testes**
+### 🧪 Testes
 
 Foram utilizados **doctests** para verificar o funcionamento do conversor, testando os diferentes elementos de Markdown definidos no enunciado.
 
